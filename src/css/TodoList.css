@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&family=Montserrat:wght@700&family=Qwitcher+Grypen:wght@700&display=swap');
+
+#root {
+    background-color: #8758ff;
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+#form {
+    width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    background-color: #1a1a40;
+    border-radius: 40px;
+    color: white;
+    align-items: center;
+    align-content: center;
+}
+
+
+.headingH1 {
+
+    margin-bottom: 20px;
+
+}
+
+
+.inputClass {
+    padding: 1.0em;
+    height: 50px;
+    border-radius: 10px 0px 0px 10px;
+    background-color: #1a1a40;
+    border-color: #8758ff;
+    width: 400px;
+}
+
+.saveBtn {
+    background-color: #8758ff;
+    border-radius: 0px 10px 10px 0px;
+    height: 50px;
+    width: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.renderList {
+    margin-top: 40px;
+}
+
+.singleTodoItem {
+    background-color: #8758ff;
+    padding: 10px;
+    margin: 10px;
+    width: 500px;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.itemName {
+    display: inline-block;
+}
+
+.emptyListClass {
+    margin-top: 30px;
+}
+
+.fontIcon {
+    margin:0 10px;
+    font-size: 15px;
+}
